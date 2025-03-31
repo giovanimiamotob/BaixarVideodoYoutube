@@ -1,4 +1,4 @@
-'import yt_dlp'
+import yt_dlp
 from os import startfile
 from pywebio.input import input
 from pywebio.output import put_text
@@ -31,4 +31,3 @@ def videoDownload():
 
 if __name__ == "__main__":
     videoDownload()
-'
